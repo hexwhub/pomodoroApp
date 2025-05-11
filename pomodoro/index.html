@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro App | Menu</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container_left">
+            <div class="container_top">
+                <p class="timer_text"></p>
+                <p class="text"></p>
+            </div>
+            <div class="container_bot">
+                <div class="container_bot_topbtn">
+                    <button class="pomodoro">Pomodoro</button>
+                    <button class="short_break">Short Break</button>
+                    <button class="long_break">Long Break</button>
+                </div>
+                <div class="container_bot_btn">
+                    <button class="pause">Pause</button>
+                    <button class="clear">Clear</button>
+                </div>
+                <div class="container_bot_statistics">
+                    <h3 class="statistics_pomodoro" style="color: #fff;"></h3>
+                    <h3 class="statistics_breaks" style="color: #fff;" ></h3>
+                </div>
+            </div>
+        </div>
+        <div class="container_right">
+            <div class="container_right_top">
+                 <h2>TODO</h2>
+                 <ul class="lists"></ul>
+            </div>
+            <div class="container_right_bottom">
+                <input type="text" class="todo_input">
+                <button class="todoAdd">Add</button>
+                <h4 class="compTodo"></h4>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+
+</html>
